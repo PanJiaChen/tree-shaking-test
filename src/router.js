@@ -10,10 +10,10 @@ export default new Router({
       name: 'about',
       component: () => import('./views/About.vue'),
     },
-    // {
-    //   path: '/about2',
-    //   name: 'about2',
-    //   component: () => import('./views/About2.vue'),
-    // },
+    {
+      path: '/about2',
+      name: 'about2',
+      component: () => import('./views/About2.vue'),
+    },
   ],
 });
